@@ -16,6 +16,7 @@
 		5F53296C2767FB5B00CDAAF6 /* MadLibsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F53296B2767FB5B00CDAAF6 /* MadLibsTests.swift */; };
 		5F5329762767FB5C00CDAAF6 /* MadLibsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5329752767FB5C00CDAAF6 /* MadLibsUITests.swift */; };
 		5F5329782767FB5C00CDAAF6 /* MadLibsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5329772767FB5C00CDAAF6 /* MadLibsUITestsLaunchTests.swift */; };
+		5F532985276802A900CDAAF6 /* secondCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F532984276802A800CDAAF6 /* secondCV.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5F5329712767FB5C00CDAAF6 /* MadLibsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadLibsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5329752767FB5C00CDAAF6 /* MadLibsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadLibsUITests.swift; sourceTree = "<group>"; };
 		5F5329772767FB5C00CDAAF6 /* MadLibsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadLibsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5F532984276802A800CDAAF6 /* secondCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondCV.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				5F53295D2767FB5A00CDAAF6 /* Assets.xcassets */,
 				5F53295F2767FB5A00CDAAF6 /* LaunchScreen.storyboard */,
 				5F5329622767FB5A00CDAAF6 /* Info.plist */,
+				5F532984276802A800CDAAF6 /* secondCV.swift */,
 			);
 			path = MadLibs;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				5F5329592767FB5000CDAAF6 /* ViewController.swift in Sources */,
 				5F5329552767FB5000CDAAF6 /* AppDelegate.swift in Sources */,
+				5F532985276802A900CDAAF6 /* secondCV.swift in Sources */,
 				5F5329572767FB5000CDAAF6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
