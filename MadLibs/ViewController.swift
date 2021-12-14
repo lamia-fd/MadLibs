@@ -19,6 +19,7 @@ var adjText=""
         let cv=storyboard?.instantiateViewController(withIdentifier: "secondCVid") as! secondCV
         
         self.navigationController?.pushViewController(cv, animated: true)
+       // performSegue(withIdentifier: "segue2", sender: nil)
        
     }
     @IBOutlet var label: UILabel!
@@ -26,6 +27,10 @@ var adjText=""
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
+
     }
     
 

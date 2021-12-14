@@ -34,7 +34,7 @@ class secondCV: UIViewController {
     
     @IBAction func submit(_ sender: UIButton) {
         
-        let home=storyboard?.instantiateViewController(withIdentifier:"homeVC")as! ViewController
+       // let home=storyboard?.instantiateViewController(withIdentifier:"homeVC")as! ViewController
       
         
       //  home.adjText = adj.text!
